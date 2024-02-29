@@ -9,21 +9,21 @@ const SideBar = () => (
   <section id="sidebar">
     <section id="intro">
       <Link to="/" className="logo">
-        <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
+        <img src={`${PUBLIC_URL}/images/me.jpeg`} alt="" />
       </Link>
       <header>
-        <h2>Michael D&apos;Angelo</h2>
-        <p><a href="mailto:michael@mldangelo.com">michael@mldangelo.com</a></p>
+        <h2>Jose (Chema) Jatem</h2>
+        <p><a href="mailto:chemajatem@gmail.com">chemajatem@gmail.com</a></p>
       </header>
     </section>
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Michael. I am a <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC Alumni,
-        and the VP of Engineering at <a href="https://smileidentity.com">Smile Identity</a>. Previously,
-        I was the co-founder and CTO of <a href="https://arthena.com">Arthena</a>
-        , co-founder of <a href="https://matroid.com">Matroid</a>, and worked at
-        {' '}<a href="https://planet.com">Planet</a> and <a href="https://facebook.com">Facebook</a>.
+      <p>Hi, I&apos;m Jose, but everybody calls me Chema, now in the US some people even do JJ,
+        but &quot;Jose&quot;, I don&apos;t know, that&apos;s not me. I am a
+        <a href="https://bulletin.utulsa.edu/preview_program.php?catoid=30&poid=4378"> University of Tulsa MSBA</a> graduate, <a href="https://www.buildersandbackers.com/"> B+B Alumni</a>, and a Data Analytics Consultant at <a href="https://www.controlrisks.com/">Control Risks</a>. Previously,
+        I was the co-founder and COO of <a href="https://pecus.app/">Pecus</a>, and worked at
+        {' '}<a href="https://www.weforum.org/organizations/empresas-polar/">Empresas Polar</a> and <a href="https://www.chevron.com/">Chevron</a>.
       </p>
       <ul className="actions">
         <li>
@@ -34,7 +34,7 @@ const SideBar = () => (
 
     <section id="footer">
       <ContactIcons />
-      <p className="copyright">&copy; Michael D&apos;Angelo <Link to="/">mldangelo.com</Link>.</p>
+      <p className="copyright">&copy; Jose Jatem <Link to="/">chemaria.com</Link>.</p>
     </section>
   </section>
 );
